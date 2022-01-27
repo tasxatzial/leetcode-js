@@ -1,9 +1,5 @@
 /* https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/ */
 
-/*
-Given an integer array nums, return the maximum result of nums[i] XOR nums[j], where 0 <= i <= j < n.
-*/
-
 const maxPow2 = 2 ** 31;
 
 /**
@@ -120,5 +116,29 @@ let findMaxXORBin = function(treeRoot, num) {
       }
     }
     return res;
+  }
+
+  /**
+ * Returns the maximum XOR between any two numbers in the given array.
+ * 
+ * @param {number[]} nums
+ * @returns {number}
+ */
+let findMaximumXOR = function(nums) {
+    let root = createNode(-1);
+    for (let i = 0; i < nums.length; i++) {
+     treeAdd(root, nums[i]);
+    }
+    let max = 0;
+    while (nums.length > 1) {
+      let lastNum = nums[nums.length - 1];
+      let res = findMaxXORBin(root, lastNum);
+      let maxXOR = toDecimal(res) ^ lastNum;
+      if (maxXOR > max) {
+        max = maxXOR;
+      }
+      nums.pop();
+    }
+    return max;
   }
   
