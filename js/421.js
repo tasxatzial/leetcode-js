@@ -35,3 +35,57 @@ let toDecimal = function(bin) {
   }
   return sum;
 }
+
+/**
+ * Returns an object that represents a node in a binary tree. The node value is the given bit.
+ * 
+ * bit must take values 0 or 1.
+ * 
+ * @param {number} bit 
+ * @returns {Object}
+ */
+ let createNode = function(bit) {
+    return {val: bit,
+           left: undefined,
+           right: undefined};
+  }
+  
+  /**
+   * Adds a new node as a child of the given parentNode. The node value is the given bit.
+   * Does not add any node if the given bit already exists as a value of either children.
+   * Returns the child node.
+   * 
+   * bit must take values 0 or 1.
+   * 
+   * @param {Object} parentNode 
+   * @param {number} bit 
+   * @returns {Object}
+   */
+  let addNode = function(parentNode, bit) {
+    if (bit === 1) {
+      if (parentNode.right === undefined) {
+        parentNode.right = createNode(bit);
+      }
+      return parentNode.right;
+    } else {
+      if (parentNode.left === undefined) {
+        parentNode.left = createNode(bit);
+      }
+      return parentNode.left;
+    }
+  }
+  
+  /**
+   * Adds num (decimal) to the given tree.
+   * 
+   * @param {Object} treeRoot 
+   * @param {number} num 
+   */
+  let treeAdd = function(treeRoot, num) {
+    let bin = toBinary(num);
+    let curr = treeRoot;
+    for (let i = 0; i < bin.length; i++) {
+      curr = addNode(curr, bin[i]);
+    }
+  }
+  
