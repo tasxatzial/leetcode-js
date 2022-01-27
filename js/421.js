@@ -88,4 +88,37 @@ let toDecimal = function(bin) {
       curr = addNode(curr, bin[i]);
     }
   }
+
+  /**
+ * Returns an array that represents the binary number X for which X ^ num is maximum.
+ * 
+ * @param {Object} treeRoot 
+ * @param {number} num 
+ * @returns {number[]}
+ */
+let findMaxXORBin = function(treeRoot, num) {
+    let bin = toBinary(num);
+    let res = [];
+    let curr = treeRoot;
+    for (let i = 0; i < bin.length; i++) {
+      if (bin[i] === 1) {
+        if (curr.left !== undefined) {
+          res.push(0);
+          curr = curr.left;
+        } else {
+          res.push(1);
+          curr = curr.right;
+        }
+      } else {
+        if (curr.right !== undefined) {
+          res.push(1);
+          curr = curr.right;
+        } else {
+          res.push(0);
+          curr = curr.left;
+        }
+      }
+    }
+    return res;
+  }
   
