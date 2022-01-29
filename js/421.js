@@ -1,5 +1,3 @@
-/* https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/ */
-
 const maxPow2 = 2 ** 31;
 
 /**

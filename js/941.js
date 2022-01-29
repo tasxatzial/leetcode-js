@@ -1,5 +1,3 @@
-/* https://leetcode.com/problems/valid-mountain-array/ */
-
 /**
  * @param {number[]} arr
  * @return {boolean}
