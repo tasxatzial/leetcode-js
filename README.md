@@ -12,6 +12,7 @@ My solutions to the problems listed on the [leetcode](https://leetcode.com/) pla
   * [Concepts](#concepts): Trie
 * [941. Valid Mountain Array](problems/941/)
 * [1305. All Elements in Two Binary Search Trees](problems/1305/)
+* [1672. Richest Customer Wealth](problems/1672/)
 
 ## Concepts
 
