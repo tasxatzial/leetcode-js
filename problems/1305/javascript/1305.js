@@ -1,3 +1,15 @@
+/* Approach: Tree traversal (recursive)
+
+N = number of elements in tree
+
+Time complexity: O(?)
+    collect tree values: O(N)
+    sort: O(?) [built-in sort function]
+Space complexity: O(?)
+    collect tree values: O(N)
+    sort: O(?) [built-in sort function]
+*/
+
 /**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {

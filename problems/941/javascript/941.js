@@ -1,3 +1,7 @@
+/* Approach: Linear pass
+
+Time complexity: O(N) */
+
 /**
  * @param {number[]} arr
  * @return {boolean}

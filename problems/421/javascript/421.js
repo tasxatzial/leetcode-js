@@ -1,3 +1,15 @@
+/* Approach: Trie
+
+N = array length
+Y = length of binary number (32 bits)
+
+Time complexity: O(96N)
+  convert to binary: O(32N)
+  add to binary tree: O(32N)
+  find max XOR: O(32N)
+Space complexity: O(32N)
+
+*/
 const maxPow2 = 2 ** 31;
 
 /**

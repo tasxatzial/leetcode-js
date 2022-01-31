@@ -1,7 +1,18 @@
+/* Approach: Trie
+
+N = word length
+
+Time complexity:
+    add: O(N)
+    search: O(N)
+Space complexity:
+    add: O(N)
+    search: O(1)
+*/
+
 var WordDictionary = function() {
     this.wordict = {};
 };
-
 
 /** 
  * Adds the given word to the dictionary.
