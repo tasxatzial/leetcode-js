@@ -28,8 +28,11 @@ var collectVals = function(root) {
     }
     let leftVals = collectVals(root.left);
     let rightVals = collectVals(root.right);
-    return [root.val].concat(leftVals).concat(rightVals);
-}
+    let res = [root.val];
+    res.push(...leftVals);
+    res.push(...rightVals);
+    return res;
+};
 
 /**
  * @param {TreeNode} root1
@@ -39,5 +42,7 @@ var collectVals = function(root) {
 var getAllElements = function(root1, root2) {
     let root1Vals = collectVals(root1);
     let root2Vals = collectVals(root2);
-    return root1Vals.concat(root2Vals).sort((a,b) => a - b);
+    let res = root1Vals;
+    res.push(...root2Vals);
+    return res.sort((a,b) => a - b);
 };
