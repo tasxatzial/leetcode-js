@@ -9,7 +9,7 @@ var gcd = function(a, b) {
         return a;
     }
     return gcd(b, a % b);
-}
+};
 
 /**
  * Moves every k-th element (k = 0...) k places to the right. The first k-th element
@@ -21,7 +21,7 @@ var gcd = function(a, b) {
  */
 var subrotate = function(nums, k, idx) {
     let i = (k + idx) % nums.length;
-    s = nums[idx];
+    let s = nums[idx];
     let n = s;
     while (i !== idx) {
         n = nums[i];
