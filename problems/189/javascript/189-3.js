@@ -12,8 +12,7 @@ var gcd = function(a, b) {
 };
 
 /**
- * Moves every k-th element (k = 0...) k places to the right. The first k-th element
- * is at index idx. Wraps around when the index is out of bounds.
+ * Rotates to the right k steps the elements in indices 0+idx, k+idx, 2*k+idx, ...
  * 
  * @param {number[]} nums 
  * @param {number} k 
