@@ -12,6 +12,7 @@ Text in parentheses indicates the algorithms/structures used in the solution. Mo
 * [211. Design Add and Search Words Data Structure](problems/211/) (Trie)
 * [258. Add Digits](problems/258/) (Digital root)
 * [421. Maximum XOR of Two Numbers in an Array](problems/421/) (Trie)
+* [532. K-diff Pairs in an Array](problems/532/)
 * [941. Valid Mountain Array](problems/941/)
 * [1305. All Elements in Two Binary Search Trees](problems/1305/)
 * [1672. Richest Customer Wealth](problems/1672/)
