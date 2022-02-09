@@ -2,7 +2,7 @@
 
 See the problem description on [leetcode](https://leetcode.com/problems/two-sum/).
 
-Here's a list of algorithms that can be used to solved the problem.
+Here's a list of algorithms that were used in the solutions.
 
 ## Binary Search
 
