@@ -1,6 +1,6 @@
 # Algorithms
 
-**Problem**: Design a data structure that supports adding new words and finding if a string matches any previously added string.
+See the problem description on [leetcode](https://leetcode.com/problems/design-add-and-search-words-data-structure/).
 
 Here's a list of algorithms that can be used to solved the problem.
 

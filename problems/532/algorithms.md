@@ -1,6 +1,6 @@
 # Algorithms
 
-**Problem**: Given an array of integers nums and an integer k, return the number of unique k-diff pairs in the array.
+See the problem description on [leetcode](https://leetcode.com/problems/k-diff-pairs-in-an-array/).
 
 Here's a list of algorithms that can be used to solved the problem.
 

@@ -1,6 +1,6 @@
 # Algorithms
 
-**Problem**: Given an integer array nums, return the maximum result of nums[i] XOR nums[j], where 0 <= i <= j < n.
+See the problem description on [leetcode](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/).
 
 Here's a list of algorithms that can be used to solved the problem.
 

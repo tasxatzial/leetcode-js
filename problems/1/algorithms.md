@@ -1,6 +1,6 @@
 # Algorithms
 
-**Problem**: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+See the problem description on [leetcode](https://leetcode.com/problems/two-sum/).
 
 Here's a list of algorithms that can be used to solved the problem.
 

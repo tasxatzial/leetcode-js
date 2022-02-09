@@ -1,6 +1,6 @@
 # Algorithms
 
-**Problem**: Given an array, rotate the array to the right by k steps, where k is non-negative.
+See the problem description on [leetcode](https://leetcode.com/problems/rotate-array/).
 
 Here's a list of algorithms that can be used to solved the problem.
 
