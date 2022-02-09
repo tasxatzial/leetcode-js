@@ -4,15 +4,11 @@ See the problem description on [leetcode](https://leetcode.com/problems/two-sum/
 
 Here's a list of algorithms that were used in the solutions.
 
-## Binary Search
+## Binary search
 
 1. Sort the array.
 
-2. Get the first element of the array (Y) and compute its difference (X) from the target.
-
-3. Do a binary search for X.
-    * If X is found, search the unsorted array and return the indices of X and Y as the solution.
-    * Else goto 2 and repeat the process for the next element of the array.
+2. If (Y) is an element of the array, its difference from the (target) is (target - Y). Therefore we can use binary search to find (target - Y).
 
 **Solutions:**
 
@@ -23,4 +19,17 @@ Here's a list of algorithms that were used in the solutions.
 N = array length
 
 * Time: O(NlogN)
+* Space: O(N)
+
+## Hash map
+
+**Solutions:**
+
+* [Javascript](javascript/1-2.js)
+
+**Complexity:**
+
+N = array length
+
+* Time: O(N)
 * Space: O(N)
