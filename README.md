@@ -9,6 +9,7 @@ Text in parentheses indicates the algorithms/structures used in the solution. Mo
 * [1. Two Sum](problems/1/) (Binary search, Hash map)
 * [121. Best Time to Buy and Sell Stock](problems/121/)
 * [189. Rotate Array](problems/189/) (Quotient group)
+* [191. Number of 1 Bits](problems/191/)
 * [211. Design Add and Search Words Data Structure](problems/211/) (Trie)
 * [258. Add Digits](problems/258/) (Digital root)
 * [421. Maximum XOR of Two Numbers in an Array](problems/421/) (Trie)
