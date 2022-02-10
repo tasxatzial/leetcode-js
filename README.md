@@ -4,12 +4,12 @@ My solutions to the problems listed on the [leetcode](https://leetcode.com/) pla
 
 ## Solved problems
 
-Text in parentheses indicates the algorithms/structures used in the solution. More info can be found in the [concepts](#concepts) section of this file.
+Text in parentheses indicates an algorithm/structure. Text in brackets indicates a concept.
 
 * [1. Two Sum](problems/1/) (Binary search, Hash map)
 * [121. Best Time to Buy and Sell Stock](problems/121/)
 * [189. Rotate Array](problems/189/) (Quotient group)
-* [191. Number of 1 Bits](problems/191/)
+* [191. Number of 1 Bits](problems/191/) {Hamming weight}
 * [211. Design Add and Search Words Data Structure](problems/211/) (Trie)
 * [258. Add Digits](problems/258/) (Digital root)
 * [421. Maximum XOR of Two Numbers in an Array](problems/421/) (Trie)
@@ -18,7 +18,7 @@ Text in parentheses indicates the algorithms/structures used in the solution. Mo
 * [1305. All Elements in Two Binary Search Trees](problems/1305/)
 * [1672. Richest Customer Wealth](problems/1672/)
 
-## Concepts
+## Algorithms
 
 Here's a list of notable data structures and algorithms that were used.
 
@@ -27,3 +27,7 @@ Here's a list of notable data structures and algorithms that were used.
 * [Digital root](https://en.wikipedia.org/wiki/Digital_root)
 * [Binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 * [Hash map](https://en.wikipedia.org/wiki/Hash_table)
+
+## Concepts
+
+* [Hamming weight](https://en.wikipedia.org/wiki/Hamming_weight)
