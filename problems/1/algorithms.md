@@ -8,7 +8,7 @@ Here's a list of algorithms that were used in the solutions.
 
 1. Sort the array.
 
-2. If (Y) is an element of the array, its difference from the (target) is (target - Y). Therefore we can use binary search to find (target - Y).
+2. Traverse the array and for each element Y compute its difference D from the target. Use binary search to find D. If found, return [indexOf(Y), indexOf(D)] as the solution.
 
 **Solutions:**
 
@@ -22,6 +22,12 @@ N = array length
 * Space: O(N)
 
 ## Hash map
+
+We can use a hash map to store an element of the array (key) and its corresponding index (value).
+
+1. Traverse the array and for each element Y compute its difference D from the target. Call map_lookup(D):
+   * If D exists in the map, return [indexOf(Y), indexOf(D)] as the solution.
+   * Else add the pair (Y, indexOf(Y)) to the hash map.
 
 **Solutions:**
 
