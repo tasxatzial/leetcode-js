@@ -1,3 +1,17 @@
+/* Approach: Stack (two pass)
+
+N = array length
+
+Time complexity: O(N)
+    Previous smaller element: O(N)
+    Next smaller element: O(N)
+    find largest area: O(3N)
+Space complexity: O(N)
+    Previous smaller element: O(2N)
+    Next smaller element: O(2N)
+    find largest area: O(2N)
+*/
+
 /**
  * Returns an array where the element at index i is the index j of the closest number such that:
  * heights[i] > heights[j] and i > j. If such number does not exist, the index is -1.
@@ -49,3 +63,23 @@ let nextSmallerElement = function(heights) {
     }
     return arr.reverse();
 }
+
+/**
+ * Given an array of integers heights representing the histogram's bar height where the width of each bar is 1,
+ * the function returns the area of the largest rectangle in the histogram.
+ * 
+ * @param {number[]} heights 
+ * @returns 
+ */
+let largestRectangleArea = function(heights) {
+    let max = 0;
+    let prevSmaller = previousSmallerElement(heights);
+    let nextSmaller = nextSmallerElement(heights);
+    for (let i = 0; i < heights.length; i++) {
+        let area = heights[i] * (nextSmaller[i] - prevSmaller[i] - 1);
+        if (area > max) {
+            max = area;
+        }
+    }
+    return max;
+};
