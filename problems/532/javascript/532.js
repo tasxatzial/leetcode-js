@@ -7,7 +7,7 @@ Time complexity: O(?)
     find number of pairs: O(NlogN)
 Space complexity: O(?)
     sort array: O(?) [built-in sort function]
-    find number of pairs: O(1)
+    find number of pairs: O(N)
 */
 
 /**
