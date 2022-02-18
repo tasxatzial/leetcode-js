@@ -24,19 +24,17 @@ let previousSmallerElement = function(heights) {
     let arr = [];
     for (let i = 0; i < heights.length; i++) {
         let last = stack[stack.length - 1];
-        if (heights[i] > last.value) {
-            arr.push(i - 1);
-        } else {
-            while (last.value >= heights[i]) {
-                stack.pop();
-                last = stack[stack.length - 1];
-            }
-            arr.push(last.index);
+        let prevSmaller = i - 1;
+        while (last.value >= heights[i]) {
+            stack.pop();
+            last = stack[stack.length - 1];
+            prevSmaller = last.index;
         }
+        arr.push(prevSmaller);
         stack.push({index: i, value: heights[i]});
     }
     return arr;
-}
+};
 
 /**
  * Returns an array where the element at index i is the index j of the closest number such that:
@@ -50,19 +48,17 @@ let nextSmallerElement = function(heights) {
     let arr = [];
     for (let i = heights.length - 1; i >= 0; i--) {
         let last = stack[stack.length - 1];
-        if (heights[i] > last.value) {
-            arr.push(i + 1);
-        } else {
-            while (last.value >= heights[i]) {
-                stack.pop();
-                last = stack[stack.length - 1];
-            }
-            arr.push(last.index);
+        let nextSmaller = i + 1;
+        while (last.value >= heights[i]) {
+            stack.pop();
+            last = stack[stack.length - 1];
+            nextSmaller = last.index;
         }
+        arr.push(nextSmaller);
         stack.push({index: i, value: heights[i]});
     }
     return arr.reverse();
-}
+};
 
 /**
  * Given an array of integers heights representing the histogram's bar height where the width of each bar is 1,
