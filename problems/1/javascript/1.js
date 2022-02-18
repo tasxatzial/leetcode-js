@@ -78,7 +78,7 @@ var findIndex = function(nums, target, startIdx) {
  */
 var binarySearch = function(nums, target, startIdx) {
     let low = startIdx;
-    let high = nums.length;
+    let high = nums.length - 1;
     while (low < high) {
         let mid = Math.floor((low + high) / 2);
         if (nums[mid] < target) {
