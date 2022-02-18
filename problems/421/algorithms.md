@@ -6,7 +6,7 @@ Here's a list of algorithms that were used in the solutions.
 
 ## Trie
 
-This solution is based on the fact that A XOR B is maximized when the corresponding bits of the binary representations of A and B are different.
+The solution is based on the fact that A XOR B is maximized when the corresponding bits of the binary representations of A and B are different.
 
 1. Convert each number to its 32-bit binary representation and store it in a Trie. Use one node for each digit.
 
@@ -22,5 +22,5 @@ This solution is based on the fact that A XOR B is maximized when the correspond
 
 N = array length
 
-* Time: O(96N) -> O(N)
-* Space: O(32N) -> O(N)
+* Time: O(N)
+* Space: O(N)

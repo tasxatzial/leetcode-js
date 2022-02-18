@@ -3,13 +3,13 @@
 N = array length
 Y = length of binary number (32 bits)
 
-Time complexity: O(96N)
-  convert to binary: O(32N)
-  add to binary tree: O(32N)
-  find max XOR: O(32N)
+Time complexity: O(N)
+    convert to binary: O(32N)
+    add to binary tree: O(32N)
+    find max XOR: O(128N)
 Space complexity: O(32N)
-
 */
+
 const maxPow2 = 2 ** 31;
 
 /**
@@ -24,7 +24,7 @@ let toBinary = function(num) {
     bin.push((num >> i) & 1)
   }
   return bin;
-}
+};
 
 /**
  * Converts a binary number (represented by an array of 0,1) to decimal.
@@ -40,7 +40,7 @@ let toDecimal = function(bin) {
     pow2 /= 2;
   }
   return sum;
-}
+};
 
 /**
  * Returns an object that represents a node in a binary tree. The node value is the given bit.
@@ -52,7 +52,7 @@ let toDecimal = function(bin) {
  */
 let createNode = function(bit) {
   return {val: bit, left: undefined, right: undefined};
-}
+};
   
 /**
  * Adds a new node as a child of the given parentNode. The node value is the given bit.
@@ -77,7 +77,7 @@ let addNode = function(parentNode, bit) {
     }
     return parentNode.left;
   }
-}
+};
 
 /**
  * Adds num (decimal) to the given tree.
@@ -91,7 +91,7 @@ let treeAdd = function(treeRoot, num) {
   for (let i = 0; i < bin.length; i++) {
     curr = addNode(curr, bin[i]);
   }
-}
+};
 
   /**
  * Returns an array that represents the binary number X for which X ^ num is maximum.
@@ -124,7 +124,7 @@ let findMaxXORBin = function(treeRoot, num) {
     }
   }
   return res;
-}
+};
 
   /**
  * Returns the maximum XOR between any two numbers in the given array.
@@ -148,4 +148,4 @@ let findMaximumXOR = function(nums) {
     nums.pop();
   }
   return max;
-}
+};
