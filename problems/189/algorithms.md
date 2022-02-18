@@ -37,6 +37,8 @@ N = array length
 
 **Complexity:**
 
+This solution should be faster than [reversing sub-arrays](#reversing-sub-arrays).
+
 N = array length
 
 * Time: O(N)
