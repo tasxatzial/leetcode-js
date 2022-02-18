@@ -10,8 +10,6 @@ Time complexity: O(N)
 Space complexity: O(32N)
 */
 
-const maxPow2 = 2 ** 31;
-
 /**
  * Converts a decimal number to binary (array of 0,1).
  * 
@@ -27,17 +25,17 @@ let toBinary = function(num) {
 };
 
 /**
- * Converts a binary number (represented by an array of 0,1) to decimal.
+ * Converts a binary number (represented by a 32 element array of 0,1) to decimal.
  * 
  * @param {number[]} bin 
  * @returns {number}
  */
 let toDecimal = function(bin) {
   let sum = 0;
-  let pow2 = maxPow2;
-  for (let i = 0; i < bin.length; i++) {
+  let pow2 = 1;
+  for (let i = 31; i >= 0; i--) {
     sum += bin[i] * pow2;
-    pow2 /= 2;
+    pow2 *= 2;
   }
   return sum;
 };
