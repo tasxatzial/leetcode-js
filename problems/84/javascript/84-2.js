@@ -1,4 +1,4 @@
-/* Approach: Stack (one pass)
+/* Approach: Stack (1 pass)
 
 N = array length
 
