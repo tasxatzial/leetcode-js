@@ -7,6 +7,7 @@ My solutions to the problems listed on the [leetcode](https://leetcode.com/) pla
 Text in parentheses indicates an algorithm/structure. Text in brackets indicates a concept.
 
 * [1. Two Sum](problems/1/) (Binary search, Hash map)
+* [34. Find First and Last Position of Element in Sorted Array](problems/34) (Binary search)
 * [84. Largest Rectangle in Histogram](problems/84/) (Stack)
 * [121. Best Time to Buy and Sell Stock](problems/121/)
 * [189. Rotate Array](problems/189/) (Quotient group)
