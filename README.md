@@ -8,6 +8,7 @@ Text in parentheses indicates an algorithm/structure. Text in brackets indicates
 
 * [1. Two Sum](problems/1/) (Binary search, Hash map)
 * [20. Valid Parentheses](problems/20/) (Stack)
+* [21. Merge Two Sorted Lists](problems/21/)
 * [34. Find First and Last Position of Element in Sorted Array](problems/34) (Binary search)
 * [84. Largest Rectangle in Histogram](problems/84/) (Stack)
 * [121. Best Time to Buy and Sell Stock](problems/121/)
