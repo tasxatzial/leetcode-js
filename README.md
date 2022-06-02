@@ -22,9 +22,7 @@ Text in parentheses indicates an algorithm/structure. Text in brackets indicates
 * [1305. All Elements in Two Binary Search Trees](problems/1305/)
 * [1672. Richest Customer Wealth](problems/1672/)
 
-## Algorithms
-
-Here's a list of notable data structures and algorithms that were used.
+## Algorithms & data structures
 
 * [Binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 * [Hash map](https://en.wikipedia.org/wiki/Hash_table)
