@@ -1,4 +1,4 @@
-/* Approach: Quotient group (in-place)
+/* Approach: Partition array indices into disjoint cycles (in-place)
 
 Time complexity: O(N)
 Space complexity: O(1)
@@ -12,7 +12,7 @@ var gcd = function(a, b) {
 };
 
 /**
- * Rotates to the right k steps the elements in indices 0+idx, k+idx, 2*k+idx, ...
+ * Rotates to the right by k steps the elements nums[0+idx], nums[k+idx], nums[2*k+idx], ...
  * 
  * @param {number[]} nums 
  * @param {number} k 

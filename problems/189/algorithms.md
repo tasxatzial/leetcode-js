@@ -25,7 +25,7 @@ N = array length
 * Time: O(N)
 * Space: O(1)
 
-## Quotient group
+## Partition array indices into disjoint cycles
 
 1. Find gcd = GCD(k, array.length).
 

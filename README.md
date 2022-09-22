@@ -12,7 +12,7 @@ Text in parentheses indicates an algorithm/structure. Text in brackets indicates
 * [34. Find First and Last Position of Element in Sorted Array](problems/34) (Binary search)
 * [84. Largest Rectangle in Histogram](problems/84/) (Stack)
 * [121. Best Time to Buy and Sell Stock](problems/121/)
-* [189. Rotate Array](problems/189/) (Quotient group)
+* [189. Rotate Array](problems/189/)
 * [191. Number of 1 Bits](problems/191/) {Hamming weight}
 * [211. Design Add and Search Words Data Structure](problems/211/) (Trie)
 * [258. Add Digits](problems/258/) {Digital root}
@@ -26,7 +26,6 @@ Text in parentheses indicates an algorithm/structure. Text in brackets indicates
 
 * [Binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 * [Hash map](https://en.wikipedia.org/wiki/Hash_table)
-* [Quotient group](https://en.wikipedia.org/wiki/Quotient_group)
 * [Segment tree](https://en.wikipedia.org/wiki/Segment_tree)
 * [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 * [Trie](https://en.wikipedia.org/wiki/Trie)
