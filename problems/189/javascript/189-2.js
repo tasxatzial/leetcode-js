@@ -1,4 +1,4 @@
-/* Approach: Reversing sub-arrays
+/* Approach: Reversing sub-arrays (in place)
 
 Time complexity: O(N)
 Space complexity: O(1)

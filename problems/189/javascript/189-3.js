@@ -1,4 +1,4 @@
-/* Approach: Quotient group
+/* Approach: Quotient group (in-place)
 
 Time complexity: O(N)
 Space complexity: O(1)
@@ -19,16 +19,13 @@ var gcd = function(a, b) {
  * @param {number} idx 
  */
 var subrotate = function(nums, k, idx) {
-    let i = (k + idx) % nums.length;
-    let s = nums[idx];
-    let n = s;
-    while (i !== idx) {
-        n = nums[i];
-        nums[i] = s;
-        i = (i + k) % nums.length;
-        s = n;
+    let curr = nums[idx];
+    for (i = (k + idx) % nums.length; i != idx; i = (i + k) % nums.length) {
+        let next = nums[i];
+        nums[i] = curr;
+        curr = next;
     }
-    nums[idx] = n;
+    nums[idx] = curr;
 };
 
 /**
