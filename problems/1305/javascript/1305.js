@@ -19,30 +19,20 @@ Space complexity: O(?)
  * }
  */
 
-var collectVals = function(root) {
-    if (root == undefined) {
-        return [];
-    }
-    if (root.left == undefined && root.right == undefined) {
-        return [root.val];
-    }
-    let leftVals = collectVals(root.left);
-    let rightVals = collectVals(root.right);
-    let res = [root.val];
-    res.push(...leftVals);
-    res.push(...rightVals);
-    return res;
+ var getAllElements = function(root1, root2) {
+    let root1Vals = [];
+    let root2Vals = [];
+    collectVals(root1, root1Vals);
+    collectVals(root2, root2Vals);
+    root1Vals.push(...root2Vals);
+    return root1Vals.sort((a,b) => a - b);
 };
 
-/**
- * @param {TreeNode} root1
- * @param {TreeNode} root2
- * @return {number[]}
- */
-var getAllElements = function(root1, root2) {
-    let root1Vals = collectVals(root1);
-    let root2Vals = collectVals(root2);
-    let res = root1Vals;
-    res.push(...root2Vals);
-    return res.sort((a,b) => a - b);
+var collectVals = function(root, vals) {
+    if (root === null) {
+        return vals;
+    }
+    vals.push(root.val);
+    collectVals(root.left, vals);
+    collectVals(root.right, vals);
 };
