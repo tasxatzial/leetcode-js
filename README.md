@@ -1,16 +1,19 @@
 # Leetcode
 
-My solutions to the problems listed on the [leetcode](https://leetcode.com/) platform.
+My solutions to some of the problems.
 
 ## Solved problems
 
-Text in parentheses indicates an algorithm/structure. Text in brackets indicates a concept.
+Text in parentheses indicates an algorithm/structure i've used in the particular problem. Text in brackets indicates a concept.
+
+### JavaScript solutions
 
 * [1. Two Sum](problems/1/) (Binary search, Hash map)
 * [20. Valid Parentheses](problems/20/) (Stack)
 * [21. Merge Two Sorted Lists](problems/21/)
 * [34. Find First and Last Position of Element in Sorted Array](problems/34) (Binary search)
 * [84. Largest Rectangle in Histogram](problems/84/) (Stack)
+* [113. Path Sum II](problems/113/) (Depth-first search)
 * [121. Best Time to Buy and Sell Stock](problems/121/)
 * [189. Rotate Array](problems/189/)
 * [191. Number of 1 Bits](problems/191/) {Hamming weight}
@@ -19,12 +22,13 @@ Text in parentheses indicates an algorithm/structure. Text in brackets indicates
 * [421. Maximum XOR of Two Numbers in an Array](problems/421/) (Trie)
 * [532. K-diff Pairs in an Array](problems/532/) (Binary search, Hash map)
 * [941. Valid Mountain Array](problems/941/)
-* [1305. All Elements in Two Binary Search Trees](problems/1305/)
+* [1305. All Elements in Two Binary Search Trees](problems/1305/) (Depth-first search)
 * [1672. Richest Customer Wealth](problems/1672/)
 
 ## Algorithms & data structures
 
 * [Binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+* [Depth-first search](https://en.wikipedia.org/wiki/Depth-first_search)
 * [Hash map](https://en.wikipedia.org/wiki/Hash_table)
 * [Segment tree](https://en.wikipedia.org/wiki/Segment_tree)
 * [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
@@ -34,3 +38,7 @@ Text in parentheses indicates an algorithm/structure. Text in brackets indicates
 
 * [Digital root](https://en.wikipedia.org/wiki/Digital_root)
 * [Hamming weight](https://en.wikipedia.org/wiki/Hamming_weight)
+
+## What is leetcode?
+
+[Leetcode](https://leetcode.com/) is an online platform to enhance your skills and prepare for tech interviews. There site has over 1900 coding problems with questions to help you prepare.
