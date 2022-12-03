@@ -19,7 +19,7 @@ Space complexity: O(?)
  * }
  */
 
- var getAllElements = function(root1, root2) {
+ let getAllElements = function(root1, root2) {
     let root1Vals = [];
     let root2Vals = [];
     collectVals(root1, root1Vals);
@@ -28,7 +28,7 @@ Space complexity: O(?)
     return root1Vals.sort((a,b) => a - b);
 };
 
-var collectVals = function(root, vals) {
+let collectVals = function(root, vals) {
     if (root === null) {
         return vals;
     }

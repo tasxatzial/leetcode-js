@@ -21,7 +21,7 @@ Space complexity: O(?)
  * @param {number} target 
  * @returns 
  */
-var twoSum = function(nums, target) {
+let twoSum = function(nums, target) {
     let sortedNums = [...nums].sort((a,b) => a - b);
     let i = 0;
     while(i < sortedNums.length) {
@@ -56,7 +56,7 @@ var twoSum = function(nums, target) {
  * @param {number} start 
  * @returns 
  */
-var findIndex = function(nums, target, startIdx) {
+let findIndex = function(nums, target, startIdx) {
     for (let i = startIdx; i < nums.length; i++) {
         if (nums[i] === target) {
             return i;
@@ -76,7 +76,7 @@ var findIndex = function(nums, target, startIdx) {
  * @param {number} startIdx 
  * @returns 
  */
-var binarySearch = function(nums, target, startIdx) {
+let binarySearch = function(nums, target, startIdx) {
     let low = startIdx;
     let high = nums.length - 1;
     while (low < high) {

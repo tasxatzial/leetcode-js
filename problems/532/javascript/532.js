@@ -17,7 +17,7 @@ Space complexity: O(?)
  * @param {number} k 
  * @returns 
  */
-var findPairs = function(nums, k) {
+let findPairs = function(nums, k) {
     let sortedNums = [...nums].sort((a,b) => a - b);
     let i = 0;
     let totalPairs = 0;
@@ -47,7 +47,7 @@ var findPairs = function(nums, k) {
  * @param {number} startIdx 
  * @returns 
  */
-var binarySearch = function(nums, target, low) {
+let binarySearch = function(nums, target, low) {
     let high = nums.length - 1;
     while (low < high) {
         let mid = Math.floor((low + high) / 2);

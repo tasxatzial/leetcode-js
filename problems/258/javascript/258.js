@@ -4,11 +4,11 @@
  * @param {number} num
  * @return {number}
  */
- var addDigits = function(num) {
+ let addDigits = function(num) {
     if (num === 0) {
         return 0;
     }
-    var s = num % 9;
+    let s = num % 9;
     if (s === 0) {
         return 9;
     }

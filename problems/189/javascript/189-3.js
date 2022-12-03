@@ -4,7 +4,7 @@ Time complexity: O(N)
 Space complexity: O(1)
 */
 
-var gcd = function(a, b) {
+let gcd = function(a, b) {
     if (!b) {
         return a;
     }
@@ -18,7 +18,7 @@ var gcd = function(a, b) {
  * @param {number} k 
  * @param {number} idx 
  */
-var subrotate = function(nums, k, idx) {
+let subrotate = function(nums, k, idx) {
     let curr = nums[idx];
     for (i = (k + idx) % nums.length; i != idx; i = (i + k) % nums.length) {
         let next = nums[i];
@@ -33,7 +33,7 @@ var subrotate = function(nums, k, idx) {
  * @param {number} k
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var rotate = function(nums, k) {
+let rotate = function(nums, k) {
     let g = gcd(nums.length, k);
     for (let i = 0; i < g; i++) {
         subrotate(nums, k, i);

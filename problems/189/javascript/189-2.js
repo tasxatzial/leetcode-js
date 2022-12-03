@@ -11,7 +11,7 @@ Space complexity: O(1)
  * @param {number} start 
  * @param {number} end 
  */
- var reverse = function(nums, start, end) {
+ let reverse = function(nums, start, end) {
     let iEnd;
     if ((end - start) % 2 === 0) {
         iEnd = start + Math.round((end-start) / 2.0);
@@ -30,7 +30,7 @@ Space complexity: O(1)
  * @param {number} k
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var rotate = function(nums, k) {
+let rotate = function(nums, k) {
     k = k % nums.length;
     reverse(nums, 0, nums.length - 1);
     reverse(nums, 0, k - 1);

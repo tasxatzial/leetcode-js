@@ -10,7 +10,7 @@ Space complexity:
     search: O(1)
 */
 
-var WordDictionary = function() {
+let WordDictionary = function() {
     this.wordict = {};
 };
 

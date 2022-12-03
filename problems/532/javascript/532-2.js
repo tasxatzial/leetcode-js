@@ -13,7 +13,7 @@ Space complexity: O(N)
  * @param {number} k
  * @return {number}
  */
- var findPairs = function(nums, k) {
+ let findPairs = function(nums, k) {
     if (k === 0) {
         return findPairs0diff(nums); // hash map
     } else {
@@ -28,7 +28,7 @@ Space complexity: O(N)
  * @param {number} k
  * @return {number}
  */
-var findPairs0diff = function(nums) {
+let findPairs0diff = function(nums) {
     let map = new Map();
     let i = 0;
     let totalPairs = 0;
@@ -54,7 +54,7 @@ var findPairs0diff = function(nums) {
  * @param {number} k
  * @return {number}
  */
-var findPairskdiff = function(nums, k) {
+let findPairskdiff = function(nums, k) {
     let set = new Set();
     let i = 0;
     let totalPairs = 0;

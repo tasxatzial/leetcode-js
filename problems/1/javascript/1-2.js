@@ -15,7 +15,7 @@ Space complexity: O(N)
  * @param {number} target 
  * @returns 
  */
-var twoSum = function(nums, target) {
+let twoSum = function(nums, target) {
     let map = new Map();
     let i = 0;
     while(i < nums.length) {

@@ -19,14 +19,14 @@ Time complexity: O(N)
  * @param {number} targetSum
  * @return {number[][]}
  */
- var pathSum = function(root, targetSum) {
+ let pathSum = function(root, targetSum) {
     let result = [];
     let pathToRoot = [];
     findPaths(root, result, pathToRoot, targetSum);
     return result;
 };
 
-var findPaths = function(node, result, pathToNode, target) {
+let findPaths = function(node, result, pathToNode, target) {
     if (node === null) {
         return;
     }

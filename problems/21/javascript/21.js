@@ -22,7 +22,7 @@ Space complexity: O(N + M)
  * @param {*} list2 
  * @returns 
  */
-var mergeTwoLists = function(list1, list2) {
+let mergeTwoLists = function(list1, list2) {
     if (list1 === null) {
         return list2;
     }
