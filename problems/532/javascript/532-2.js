@@ -11,7 +11,7 @@ Space complexity: O(N)
  *
  * @param {number[]} nums
  * @param {number} k
- * @return {number}
+ * @returns {number}
  */
  let findPairs = function(nums, k) {
     if (k === 0) {
@@ -26,7 +26,7 @@ Space complexity: O(N)
  *
  * @param {number[]} nums
  * @param {number} k
- * @return {number}
+ * @returns {number}
  */
 let findPairs0diff = function(nums) {
     let map = new Map();
@@ -52,7 +52,7 @@ let findPairs0diff = function(nums) {
  *
  * @param {number[]} nums
  * @param {number} k
- * @return {number}
+ * @returns {number}
  */
 let findPairskdiff = function(nums, k) {
     let set = new Set();

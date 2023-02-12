@@ -12,11 +12,12 @@ let gcd = function(a, b) {
 };
 
 /**
- * Rotates to the right by k steps the elements nums[0+idx], nums[k+idx], nums[2*k+idx], ...
+ * Rotates (in place) to the right by k steps the elements nums[0+idx], nums[k+idx], nums[2*k+idx], ...
  * 
  * @param {number[]} nums 
  * @param {number} k 
  * @param {number} idx 
+ * @returns {void}
  */
 let subrotate = function(nums, k, idx) {
     let curr = nums[idx];
@@ -31,7 +32,7 @@ let subrotate = function(nums, k, idx) {
 /**
  * @param {number[]} nums
  * @param {number} k
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @returns {void}
  */
 let rotate = function(nums, k) {
     let g = gcd(nums.length, k);

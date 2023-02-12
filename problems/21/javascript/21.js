@@ -18,9 +18,9 @@ Space complexity: O(N + M)
 /**
  * Merge the two sorted lists in a one sorted list.
  * 
- * @param {*} list1 
- * @param {*} list2 
- * @returns 
+ * @param {ListNode} list1 
+ * @param {ListNode} list2 
+ * @returns {ListNode}
  */
 let mergeTwoLists = function(list1, list2) {
     if (list1 === null) {

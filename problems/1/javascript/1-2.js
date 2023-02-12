@@ -7,13 +7,14 @@ Space complexity: O(N)
 */
 
 /**
- * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+ * Given an array of integers nums and an integer target, return the indices of the
+ * two numbers that add up to target, or null if such numbers don't exist.
  * 
  * The same array element may not be used twice.
  * 
  * @param {number[]} nums 
  * @param {number} target 
- * @returns 
+ * @returns {number[]}
  */
 let twoSum = function(nums, target) {
     let map = new Map();

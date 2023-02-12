@@ -7,7 +7,7 @@ Space complexity: O(N)
 /**
  * @param {number[]} nums
  * @param {number} k
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @returns {void}
  */
 let rotate = function(nums, k) {
     let i = nums.length - k % nums.length;

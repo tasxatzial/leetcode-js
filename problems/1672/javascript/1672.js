@@ -1,6 +1,6 @@
 /**
  * @param {number[][]} accounts
- * @return {number}
+ * @returns {number}
  */
  let maximumWealth = function(accounts) {
     let wealths = accounts.map(x => x.reduce((a,b) => a + b, 0));

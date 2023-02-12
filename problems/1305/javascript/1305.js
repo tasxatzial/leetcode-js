@@ -19,6 +19,14 @@ Space complexity: O(?)
  * }
  */
 
+/**
+ * Returns an array that contains all node values from both trees.
+ * Values are sorted (ascending).
+ * 
+ * @param {TreeNode} root1 
+ * @param {TreeNode} root2 
+ * @returns {number[]}
+ */
  let getAllElements = function(root1, root2) {
     let root1Vals = [];
     let root2Vals = [];
@@ -28,6 +36,13 @@ Space complexity: O(?)
     return root1Vals.sort((a,b) => a - b);
 };
 
+/**
+ * Adds all node values to the vals array.
+ * 
+ * @param {TreeNode} root 
+ * @param {number[]} vals 
+ * @returns {void}
+ */
 let collectVals = function(root, vals) {
     if (root === null) {
         return vals;

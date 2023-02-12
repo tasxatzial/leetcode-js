@@ -18,7 +18,7 @@ let WordDictionary = function() {
  * Adds the given word to the dictionary.
  * 
  * @param {string} word
- * @return {void}
+ * @returns {void}
  */
 WordDictionary.prototype.addWord = function(word) {
     let splitWord = word.split('');
@@ -36,7 +36,7 @@ WordDictionary.prototype.addWord = function(word) {
  * Returns true if the given word is found in the dictionary, false otherwise.
  * 
  * @param {string} word
- * @return {boolean}
+ * @returns {boolean}
  */
  WordDictionary.prototype.search = function(word) {
     return searchMulti(word, this.wordict);
@@ -51,7 +51,7 @@ WordDictionary.prototype.addWord = function(word) {
  * 
  * @param {string} word 
  * @param {Object} dictionary 
- * @returns 
+ * @returns {boolean}
  */
 let searchMulti = function(word, dictionary) {
     let curr = dictionary;

@@ -2,7 +2,7 @@
 
 /**
  * @param {number} num
- * @return {number}
+ * @returns {number}
  */
  var addDigits = function(num) {
     if (num === 0) {

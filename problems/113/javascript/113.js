@@ -17,7 +17,7 @@ Time complexity: O(N)
 /**
  * @param {TreeNode} root
  * @param {number} targetSum
- * @return {number[][]}
+ * @returns {number[][]}
  */
  let pathSum = function(root, targetSum) {
     let result = [];
@@ -26,6 +26,14 @@ Time complexity: O(N)
     return result;
 };
 
+/**
+ * 
+ * @param {TreeNode} node 
+ * @param {number[][]} result 
+ * @param {number[]} pathToNode 
+ * @param {number} target 
+ * @returns {void}
+ */
 let findPaths = function(node, result, pathToNode, target) {
     if (node === null) {
         return;

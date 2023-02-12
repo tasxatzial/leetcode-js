@@ -17,7 +17,7 @@ Space complexity: O(N)
  * heights[i] > heights[j] and i > j. If such number does not exist, the index is -1.
  * 
  * @param {number[]} heights 
- * @returns 
+ * @returns {number}
  */
 let previousSmallerElement = function(heights) {
     let stack = [{index: -1, value: -1}];
@@ -41,7 +41,7 @@ let previousSmallerElement = function(heights) {
  * heights[i] > heights[j] and i < j. If such number does not exist, the index is heights.length.
  * 
  * @param {number[]} heights 
- * @returns 
+ * @returns {number[]}
  */
 let nextSmallerElement = function(heights) {
     let stack = [{index: heights.length, value: -1}];
@@ -61,11 +61,11 @@ let nextSmallerElement = function(heights) {
 };
 
 /**
- * Given an array of integers heights representing the histogram's bar height where the width of each bar is 1,
- * the function returns the area of the largest rectangle in the histogram.
+ * Given an array of integers heights representing the histogram's bar height where the width
+ * of each bar is 1, the function returns the area of the largest rectangle in the histogram.
  * 
  * @param {number[]} heights 
- * @returns 
+ * @returns {number}
  */
 let largestRectangleArea = function(heights) {
     let max = 0;

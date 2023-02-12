@@ -1,6 +1,6 @@
 /**
  * @param {number} n - a positive integer
- * @return {number}
+ * @returns {number}
  */
  let hammingWeight = function(n) {
     let s = n.toString(2);

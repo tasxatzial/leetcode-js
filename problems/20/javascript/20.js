@@ -15,10 +15,10 @@ let matchingBracket = (function() {
 })();
 
 /**
- * "Returns true if the given string has properly matched brackets, false otherwise.
+ * Returns true if the given string has properly matched brackets, false otherwise.
  * 
  * @param {string} s
- * @return {boolean}
+ * @returns {boolean}
  */
 let isValid = function(s) {
     let stack = [];

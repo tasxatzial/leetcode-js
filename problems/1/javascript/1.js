@@ -13,13 +13,14 @@ Space complexity: O(?)
 */
 
 /**
- * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+ * Given an array of integers nums and an integer target, return the indices of the
+ * two numbers that add up to target, or null if such numbers don't exist.
  * 
  * The same array element may not be used twice.
  * 
  * @param {number[]} nums 
  * @param {number} target 
- * @returns 
+ * @returns {number[]}
  */
 let twoSum = function(nums, target) {
     let sortedNums = [...nums].sort((a,b) => a - b);
@@ -54,7 +55,7 @@ let twoSum = function(nums, target) {
  * @param {number[]} nums 
  * @param {number} target 
  * @param {number} start 
- * @returns 
+ * @returns {number}
  */
 let findIndex = function(nums, target, startIdx) {
     for (let i = startIdx; i < nums.length; i++) {
@@ -74,7 +75,7 @@ let findIndex = function(nums, target, startIdx) {
  * @param {number[]} nums 
  * @param {number} target 
  * @param {number} startIdx 
- * @returns 
+ * @returns {number}
  */
 let binarySearch = function(nums, target, startIdx) {
     let low = startIdx;

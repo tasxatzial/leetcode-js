@@ -9,7 +9,8 @@ Space complexity: O(1)
  * 
  * @param {number[]} nums 
  * @param {number} start 
- * @param {number} end 
+ * @param {number} end
+ * @returns {void}
  */
  let reverse = function(nums, start, end) {
     let iEnd;
@@ -28,7 +29,7 @@ Space complexity: O(1)
 /**
  * @param {number[]} nums
  * @param {number} k
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @returns {void}
  */
 let rotate = function(nums, k) {
     k = k % nums.length;

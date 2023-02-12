@@ -6,7 +6,7 @@ Space complexity: O(1)
 
 /**
  * @param {number[]} prices
- * @return {number}
+ * @returns {number}
  */
  let maxProfit = function(prices) {
     let minIdx = 0;

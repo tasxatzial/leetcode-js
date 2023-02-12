@@ -13,7 +13,7 @@ Space complexity: O(1)
  * 
  * @param {number[]} nums
  * @param {number} target
- * @return {number[]}
+ * @returns {number[]}
  */
 let searchRange = function(nums, target) {
     let first = binarySearchLowest(nums, target);
@@ -28,7 +28,7 @@ let searchRange = function(nums, target) {
  * 
  * @param {number[]} nums 
  * @param {number} target 
- * @returns 
+ * @returns {number}
  */
 let binarySearchLowest = function(nums, target) {
     let low = 0;
@@ -55,7 +55,7 @@ let binarySearchLowest = function(nums, target) {
  * 
  * @param {number[]} nums 
  * @param {number} target 
- * @returns 
+ * @returns {number}
  */
 let binarySearchHighest = function(nums, target) {
     let low = 0;

@@ -4,7 +4,7 @@ Time complexity: O(N) */
 
 /**
  * @param {number[]} arr
- * @return {boolean}
+ * @returns {boolean}
  */
 let validMountainArray = function(arr) {
     if (arr.length < 3) {

@@ -14,7 +14,7 @@ Space complexity: O(32N)
  * Converts a decimal number to binary (array of 0,1).
  * 
  * @param {number} num 
- * @returns 
+ * @returns {number[]}
  */
 let toBinary = function(num) {
   let bin = [];
