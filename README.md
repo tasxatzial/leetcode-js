@@ -1,29 +1,28 @@
-# Leetcode
+# Leetcode solutions
 
-My solutions to some of the problems.
+[Leetcode](https://leetcode.com/) is an online platform to enhance your skills and prepare for tech interviews. There site has over 1900 coding problems with questions to help you prepare.
 
-## Solved problems
+---
 
-Text in parentheses indicates an algorithm/structure i've used in the particular problem. Text in brackets indicates a concept.
-
-### JavaScript solutions
-
-* [1. Two Sum](problems/1/) (Binary search, Hash map)
-* [20. Valid Parentheses](problems/20/) (Stack)
-* [21. Merge Two Sorted Lists](problems/21/)
-* [34. Find First and Last Position of Element in Sorted Array](problems/34) (Binary search)
-* [84. Largest Rectangle in Histogram](problems/84/) (Stack)
-* [113. Path Sum II](problems/113/) (Depth-first search)
-* [121. Best Time to Buy and Sell Stock](problems/121/)
-* [189. Rotate Array](problems/189/)
-* [191. Number of 1 Bits](problems/191/) {Hamming weight}
-* [211. Design Add and Search Words Data Structure](problems/211/) (Trie)
-* [258. Add Digits](problems/258/) {Digital root}
-* [421. Maximum XOR of Two Numbers in an Array](problems/421/) (Trie)
-* [532. K-diff Pairs in an Array](problems/532/) (Binary search, Hash map)
-* [941. Valid Mountain Array](problems/941/)
-* [1305. All Elements in Two Binary Search Trees](problems/1305/) (Depth-first search)
-* [1672. Richest Customer Wealth](problems/1672/)
+| #    | Problem                                                                | Language   | Algorithm / Structure   | Concept        |
+|------|------------------------------------------------------------------------|------------|-------------------------|----------------|
+| 1    | [Two Sum](problems/1/)                                                 | JavaScript | Binary search, Hash map |                |
+| 20   | [Valid Parentheses](problems/20/)                                      | JavaScript | Stack                   |                |
+| 21   | [Merge Two Sorted Lists](problems/21/)                                 | JavaScript |                         |                |
+| 34   | [Find First and Last Position of Element in Sorted Array](problems/34) | JavaScript | Binary search           |                |
+| 84   | [Largest Rectangle in Histogram](problems/84/)                         | JavaScript | Stack                   |                |
+| 113  | [Path Sum II](problems/113/)                                           | JavaScript | Depth-first search      |                |
+| 121  | [Best Time to Buy and Sell Stock](problems/121/)                       | JavaScript |                         |                |
+| 189  | [Rotate Array](problems/189/)                                          | JavaScript |                         |                |
+| 191  | [Number of 1 Bits](problems/191/)                                      | JavaScript |                         | Hamming weight |
+| 211  | [Design Add and Search Words Data Structure](problems/211/)            | JavaScript | Trie                    |                |
+| 258  | [Add Digits](problems/258/)                                            | JavaScript |                         | Digital root   |
+| 421  | [Maximum XOR of Two Numbers in an Array](problems/421/)                | JavaScript | Trie                    |                |
+| 532  | [K-diff Pairs in an Array](problems/532/)                              | JavaScript | Binary search, Hash map |                |
+| 941  | [Valid Mountain Array](problems/941/)                                  | JavaScript |                         |                |
+| 1305 | [All Elements in Two Binary Search Trees](problems/1305/)              | JavaScript | Depth-first search      |                |
+| 1672 | [Richest Customer Wealth](problems/1672/)                              | JavaScript |                         |                |
+|      |                                                                        |            |                         |                |
 
 ## Algorithms & data structures
 
@@ -38,7 +37,3 @@ Text in parentheses indicates an algorithm/structure i've used in the particular
 
 * [Digital root](https://en.wikipedia.org/wiki/Digital_root)
 * [Hamming weight](https://en.wikipedia.org/wiki/Hamming_weight)
-
-## What is leetcode?
-
-[Leetcode](https://leetcode.com/) is an online platform to enhance your skills and prepare for tech interviews. There site has over 1900 coding problems with questions to help you prepare.
