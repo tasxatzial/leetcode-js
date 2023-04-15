@@ -9,7 +9,7 @@ Here's a list of algorithms that were used in the solutions.
 The standard binary search algorithm can easily be modified to find the first or last position of the target element.
 
 1. Use binary search to find the first position F of the target.
-2. Use binary search to find the first position L of the target.
+2. Use binary search to find the last position L of the target.
 3. Return [F, L]
 
 **Solutions:**
