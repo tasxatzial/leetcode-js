@@ -17,7 +17,7 @@ Space complexity: O(1)
     if ((end - start) % 2 === 0) {
         iEnd = start + Math.round((end-start) / 2.0);
     } else {
-        iEnd = start + Math.round(Math.floor((end-start) / 2.0));
+        iEnd = start + Math.floor((end-start) / 2.0);
     }
     for (let i = start; i <= iEnd; i++) {
         let tmp = nums[end - (i - start)];
