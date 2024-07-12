@@ -12,9 +12,7 @@ The standard binary search algorithm can easily be modified to find the first or
 2. Use binary search to find the last position L of the target.
 3. Return [F, L]
 
-**Solutions:**
-
-* [Javascript](javascript/34.js)
+[Solution](javascript/34.js)
 
 **Complexity:**
 

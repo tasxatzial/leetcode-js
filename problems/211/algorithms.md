@@ -8,9 +8,7 @@ Here's a list of algorithms that were used in the solutions.
 
 Store words in a Trie, use one node for each letter.
 
-**Solutions:**
-
-* [Javascript](javascript/211.js)
+[Solution](javascript/211.js)
 
 **Complexity:**
 

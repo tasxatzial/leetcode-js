@@ -14,9 +14,7 @@ Here's a list of algorithms that were used in the solutions.
 
 4. Reverse the array from indices k to (array.length-1) included.
 
-**Solutions:**
-
-* [Javascript](javascript/189-2.js)
+[Solution](javascript/189-2.js)
 
 **Complexity:**
 
@@ -31,9 +29,7 @@ N = array length
 
 2. For s = 0..(gcd-1) rotate to the right k steps the elements in indices 0+s, k+s, 2*k+s, ...
 
-**Solutions:**
-
-* [Javascript](javascript/189-3.js)
+[Solution](javascript/189-3.js)
 
 **Complexity:**
 

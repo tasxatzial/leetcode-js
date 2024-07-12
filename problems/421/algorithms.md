@@ -14,9 +14,7 @@ The solution is based on the fact that A XOR B is maximized when the correspondi
 
 3. The maximum of all A XOR B from the previous step is the solution.
 
-**Solutions:**
-
-* [Javascript](javascript/421.js)
+[Solution](javascript/421.js)
 
 **Complexity:**
 

@@ -12,9 +12,7 @@ Here's a list of algorithms that were used in the solutions.
    * If Y is equal to the previous element, move to the next element.
    * Else use binary search to find (Y + k). If found, increase the number of k-diff pairs by 1.
 
-**Solutions:**
-
-* [Javascript](javascript/532.js)
+[Solution](javascript/532.js)
 
 **Complexity:**
 
@@ -42,9 +40,7 @@ When k != 0 we can use a hash set to store an element of the array.
     * Call set_lookup(Y - k). If it returns true, increase the number of k-diff pairs by 1.
     * Add Y to the set.
 
-**Solutions:**
-
-* [Javascript](javascript/532-2.js)
+[Solution](javascript/532-2.js)
 
 **Complexity:**
 

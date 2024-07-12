@@ -12,9 +12,7 @@ Here's a list of algorithms that were used in the solutions.
    * The area of the largest rectangle is (i2 - i1 + 1) * Y.
 2. The maximum area of all areas from the previous step is the solution.
 
-**Solutions:**
-
-Not implemented.
+Solution: Not implemented.
 
 **Complexity:**
 
@@ -32,9 +30,7 @@ The idea here is the same as in the [brute force](#brute-force) approach. For ea
 3. Traverse the array, for each element arr[i] the maximum area is arr[i]*(N[i] - P[i] - 1);
 4. The maximum of all areas from the previous step is the solution.
 
-**Solutions:**
-
-* [Javascript](javascript/84.js)
+[Solution](javascript/84.js)
 
 **Complexity:**
 
@@ -45,11 +41,9 @@ N = array length
 
 ## Stack (1 pass)
 
-This solution should be faster than the [stack (3 pass)](#stack-two-pass) approach and requires less space. We also use a stack but now the maximum area is found with just a single array traversal.
+This solution should be faster than the [stack (3 pass)](#stack-3-pass) approach and requires less space. We also use a stack but now the maximum area is found with just a single array traversal.
 
-**Solutions:**
-
-* [Javascript](javascript/84-2.js)
+[Solution](javascript/84-2.js)
 
 **Complexity:**
 
@@ -70,9 +64,7 @@ We can apply the same idea to the sub-histograms to the left and right of Y.
 
 This is a faster solution than [brute force](#brute-force) but slower than any of the solutions [[1]](#stack-1-pass) [[2]](#stack-3-pass) that use stacks. It requires more space as well.
 
-**Solutions:**
-
-Not implemented.
+Solution: Not implemented.
 
 **Complexity:**
 

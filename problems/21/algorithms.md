@@ -13,9 +13,7 @@ Here's a list of algorithms that were used in the solutions.
    * Else add a new node in L with p2.val as value and advance p2 to the next node.
 4. When at least one list has been processed, add the nodes of the other list to L.
 
-**Solutions:**
-
-* [Javascript](javascript/21.js)
+[Solution](javascript/21.js)
 
 **Complexity:**
 

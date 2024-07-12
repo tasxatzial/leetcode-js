@@ -10,9 +10,7 @@ Here's a list of algorithms that were used in the solutions.
 
 2. Traverse the array and for each element Y compute its difference D from the target. Use binary search to find D. If found, return [indexOf(Y), indexOf(D)] as the solution.
 
-**Solutions:**
-
-* [Javascript](javascript/1.js)
+[Solution](javascript/1.js)
 
 **Complexity:**
 
@@ -29,9 +27,7 @@ We can use a hash map to store an element of the array (key) and its correspondi
    * If D exists in the map, return [indexOf(Y), indexOf(D)] as the solution.
    * Else add the pair (Y, indexOf(Y)) to the hash map.
 
-**Solutions:**
-
-* [Javascript](javascript/1-2.js)
+[Solution](javascript/1-2.js)
 
 **Complexity:**
 

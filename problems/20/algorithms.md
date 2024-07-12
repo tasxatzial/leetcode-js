@@ -12,9 +12,7 @@ Here's a list of algorithms that were used in the solutions.
       * If yes, pop the stack and move to the next string char.
       * If no, the string has unbalanced brackets.
 
-**Solutions:**
-
-* [Javascript](javascript/20.js)
+[Solution](javascript/20.js)
 
 **Complexity:**
 
